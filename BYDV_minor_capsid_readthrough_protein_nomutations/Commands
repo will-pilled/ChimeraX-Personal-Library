@@ -9,10 +9,11 @@ run(session, 'show surfaces')
 run(session, 'rainbow palette purples-5')
 run(session, 'style ball')
 run(session, 'transparency 75 surfaces')
-run(session, 'sequence chain /A')
 run(session, 'view orient')
 run(session, 'ui tool show "Side View"')
 run(session, 'graphics silhouettes true')
 run(session, 'set bgColor #ffffff00')
-run(session, 'roll')
+run(session, 'roll y 0.25')
 # To stop the roll command, simply type stop in the command line, then optionally 'view orient' for the original view :)
+# I have run into issues while running the sequence chain command, so if you want to show the chain, wait for all these commands to load
+# and then just type 'sequence chain /A' in the command bar.
