@@ -1,0 +1,18 @@
+# A minor readthrough protein from the Barley Yellow Dwarf Virus predicted by Alphafold
+# IMPORTANT: Please download the file titled 'BYDV_minor_capsid_readthrough_protein_nomutations_c6e80_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb' from the github page
+# Open this file direclty through ChimeraX
+
+from chimerax.core.commands import run
+run(session, 'show c')
+run(session, 'show a')
+run(session, 'show surfaces')
+run(session, 'rainbow palette purples-5')
+run(session, 'style ball')
+run(session, 'transparency 75 surfaces')
+run(session, 'sequence chain /A')
+run(session, 'view orient')
+run(session, 'ui tool show "Side View"')
+run(session, 'graphics silhouettes true')
+run(session, 'set bgColor #ffffff00')
+run(session, 'roll')
+# To stop the roll command, simply type stop in the command line, then optionally 'view orient' for the original view :)
