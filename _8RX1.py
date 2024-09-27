@@ -1,0 +1,13 @@
+from chimerax.core.commands import run
+run(session, 'open 8RX1')
+run(session, 'show c')
+run(session, 'show a')
+run(session, 'show s')
+run(session, 'style stick')
+run(session, 'color bypolymer')
+run(session, 'transparency 80 s')
+run(session, 'cartoon style modeHelix tube sides 20')
+run(session, 'view orient')
+run(session, 'ui tool show "Side View"')
+run(session, 'graphics silhouettes true')
+run(session, 'set bgColor #ffffff00')
