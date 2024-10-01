@@ -1,0 +1,13 @@
+from chimerax.core.commands import run
+run(session, 'open 2EXN')
+run(session, 'show a')
+run(session, 'show c')
+run(session, 'show s')
+run(session, 'color sequential palette Reds-5')
+run(session, 'transparency 85 s')
+run(session, 'style stick')
+run(session, 'sequence chain all')
+run(session, 'view orient')
+run(session, 'ui tool show "Side View"')
+run(session, 'graphics silhouettes true')
+run(session, 'set bgColor #ffffff00')
